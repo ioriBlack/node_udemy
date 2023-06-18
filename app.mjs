@@ -7,8 +7,8 @@ import env from "dotenv";
 env.config();
 
 const app = express();
-app.use(express.json());
 app.use(express.static("public"));
+app.use(express.json());
 
 import cors from "cors";
 app.use(cors({
