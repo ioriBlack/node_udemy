@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.mjs",
   "type": "module",
-  "proxy": "http://localhost:8080",
   "scripts": {
     "dev": "nodemon app.js"
   },
